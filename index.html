@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Hi, I'm Vinita</h1>
+        <p>Web Developer | Designer | Learner</p>
+        <button onclick="scrollToSection('projects')">View My Work</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I’m Vinita — a frontend developer who loves bringing ideas to life on the web. I enjoy designing clean, colorful, and interactive websites that people love to use. Outside of coding, I’m into exploring design trends, working on creative projects, and collecting certifications to level up my skills.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio to showcase my work and skills.</p>
+            </div>
+            <div class="project-card">
+                <h3>Online Store</h3>
+                <p>An e-commerce platform with a modern UI and payment integration.</p>
+            </div>
+            <div class="project-card">
+                <h3>Blog Website</h3>
+                <p>A responsive blog with categories and a comment system.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vinita. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
